@@ -2,10 +2,29 @@
 bin/
 bin-debug/
 bin-release/
+build/
 
 # Other files and folders
 .settings/
 
+# !!! Information below is very doubtful !!!
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+## Directory-based project format
+.idea/
+
+## File-based project format
+*.ipr
+*.iws
+*.iml
+
+## Additional for IntelliJ
+out/
+
+
+# Gradle
+.gradle/

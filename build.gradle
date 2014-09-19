@@ -1,0 +1,20 @@
+apply plugin: 'gradlefx'
+apply plugin: 'ide'
+
+version = '1.2.0'
+
+type = 'swc'
+
+dependencies {
+    merged files('libs/green.swc')
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath group: 'org.gradlefx', name: 'gradlefx', version: '0.8.3'
+    }
+}
