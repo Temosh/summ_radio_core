@@ -1,6 +1,7 @@
 apply plugin: 'gradlefx'
 apply plugin: 'ide'
 
+group = 'com.summ'
 version = '1.2.0'
 
 type = 'swc'
