@@ -16,6 +16,6 @@ buildscript {
     }
 
     dependencies {
-        classpath group: 'org.gradlefx', name: 'gradlefx', version: '0.8.3'
+        classpath "org.gradlefx:gradlefx:1.4.0"
     }
 }
